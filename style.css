@@ -1,0 +1,38 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    height: 400px;
+    width: 600px;
+    margin-left: 80px;
+}
+
+nav {
+    padding: 0px auto;
+}
+
+#name {
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    float: left;
+    position: absolute;
+    top: -20px;
+  }
+
+.align-middle {
+    font-size: 20px;
+  
+}
+
+.float-right {
+    float: right
+}
+
+.float-left {
+    float: left;
+}
+
