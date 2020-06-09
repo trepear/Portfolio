@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Trier's Website</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My Personal Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<!-- div for site conent sans footer -->
+<div class="site-content">
+  <!-- Nav bar -->
+  <div class="container-fluid navigation-container">
+    <div class="container">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand brand-name" href="index.html">Trier Buhrsmith</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation Menu items -->
+        <div class= "collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link pl-4" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-4" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pl-4" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+<!-- main content -->
+    <div class="container main-content-container">
+        <div class="mt-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h3 class="card-title">Contact</h3>
+                    <hr class="p-2">
+                    <form method="POST"></form>
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Name</label>
+                            <input type="text" name="name" class="form-control" id="formGroupExampleInput">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email</label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text"></small>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-lg btn-primary">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="navbar fixed-bottom">© 2020 Copyright</div>
