@@ -1,0 +1,91 @@
+body {
+    margin: 0px auto;
+    padding: 0;
+}
+
+.site {
+    display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: 'Quicksand', sans-serif;
+  }
+
+  .site-content {
+    background-image: url("Assets/more-leaves.png");
+    background-repeat: repeat;
+	flex: 1;
+  }
+
+  .navbar {
+	padding: 0;
+  }
+
+    .navigation-container {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	padding: 0;
+  }
+
+  .navbar-light .navbar-brand {
+	font-family: Georgia, "Times New Roman", Times, Serif;
+	font-size: 10px;
+    font-weight: bold;
+    background: #4aaaa5;
+    color: white;
+  }
+
+  .nav-item a {
+	font-size: 20px;
+  }
+
+  .card-title {
+    color: #4aaaa5;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+  
+ .floating-img {
+	border: 1px solid #ccc;
+ }
+    
+ .card-text {
+     float: right;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ footer {
+     border-top: 8px solid #4aaaa5;
+     text-align: center;
+ }
+
+/* Portfolio pg */
+  .portfolio-overlay {
+    position: relative;
+    background-color: rgb(234, 234, 234);
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    opacity: 0.9;
+    }  
+
+    .card-img-overlay {
+		display: flex;
+		top: -60px;
+		justify-content: center;
+		align-items: flex-end;
+		align-content: flex-end;
+		padding: 1em;
+		z-index: 1000;
+        width: 361px
+    }
+
+
+	
+	
+
