@@ -11,7 +11,7 @@ body {
 	font-family: 'Quicksand', sans-serif;
   }
 
-  .site-content {
+  site-content {
 	color: #777777;
 	flex: 1;
   }
@@ -44,16 +44,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
-  
- .floating-img {
-	border: 1px solid #ccc;
+ p {
+     font-family: Arial, Helvetica, sans-serif;
  }
-    
- .card-text {
-     float: right;
- }
- 
- 
+
  footer {
      border-top: 8px solid #4aaaa5;
  }
