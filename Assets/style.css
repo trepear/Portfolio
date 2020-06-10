@@ -28,7 +28,7 @@ body {
 
   .navbar-light .navbar-brand {
 	font-family: Georgia, "Times New Roman", Times, Serif;
-	font-size: 32px;
+  font-size: 32px;
     font-weight: bold;
     background: #4aaaa5;
     color: white;

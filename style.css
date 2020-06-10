@@ -45,10 +45,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
-  
- .floating-img {
-	border: 1px solid #ccc;
- }
+ 
     
  .card-text {
      float: right;
